@@ -1,27 +1,24 @@
 # Sign-Language-Image-Classification-
 
-Project Overview:
-The project focused on implementing and optimizing deep learning models to classify images of hand poses that correspond to letters in American Sign Language (ASL). The goal was to assess the feasibility of developing a lightweight application capable of translating ASL for people who do not sign or for those who sign in different languages or styles. The project required adhering to specific constraints, such as a limit of 50 training runs and a maximum of 500,000 parameters per model, while achieving high classification accuracy.
+Project Overview
+This project dives into the world of deep learning to unlock the potential of translating American Sign Language (ASL) through a lightweight application. The challenge? To build and optimize models capable of accurately classifying hand poses corresponding to ASL letters. With the ultimate goal of bridging communication gaps for non-signers and those using different sign languages or styles, I tackled this project under strict constraints: no more than 50 training runs and a maximum of 500,000 parameters per model—all while aiming for top-notch accuracy.
 
-What I Did:
-Implemented three different deep-learning models to classify ASL hand gestures:
-Densely Connected Neural Network (DNN): A fully connected neural network model used as a baseline to establish initial performance metrics.
-Convolutional Neural Network (CNN): A model designed to capture spatial features in the images, with convolutional layers, max-pooling layers, and dropout regularization to improve performance and prevent overfitting.
-Optimized Convolutional Neural Network (Optimized CNN): An enhanced version of the CNN, where I systematically adjusted hyperparameters such as learning rates and dropout rates to further improve the model's accuracy.
-Preprocessed the dataset by loading and scaling the image data, ensuring that the training, validation, and test sets were appropriately structured and free of data leakage.
-Trained and evaluated the models, comparing their performance using accuracy metrics. I monitored learning curves to identify and mitigate underfitting or overfitting issues.
-Optimized the models by fine-tuning hyperparameters and network architectures, focusing on improving the accuracy while adhering to the computational constraints.
+What I Did
+To bring this vision to life, I implemented and fine-tuned three distinct deep-learning models:
 
-Results:
+Densely Connected Neural Network (DNN): Kicked off with a fully connected neural network to lay down the baseline performance metrics. This model served as a foundation to understand the complexities of the data.
+Convolutional Neural Network (CNN): Took it up a notch with a CNN, specifically designed to capture the intricate spatial features of ASL hand gestures. By incorporating convolutional layers, max-pooling, and dropout regularization, I significantly boosted performance while keeping overfitting at bay.
+Optimized Convolutional Neural Network (Optimized CNN): Pushed the boundaries by systematically tweaking hyperparameters like learning rates and dropout rates. The result? A more refined and accurate model that stands closer to our goal.
+The journey involved meticulous data preprocessing—loading, scaling, and structuring the datasets for training, validation, and testing—all while ensuring data integrity. I trained and evaluated each model, carefully monitoring learning curves to identify and counteract any signs of underfitting or overfitting. The final step was to optimize these models, fine-tuning every detail to squeeze out the best possible performance within the given constraints.
+
+Results
 Convolutional Neural Network (CNN):
 Test Accuracy: 87.34%
-The CNN significantly improved accuracy by capturing spatial features, but it required further optimization to meet the desired accuracy target.
+This model made a significant leap in accuracy by effectively capturing the spatial nuances of ASL gestures, though it still called for further optimization to hit the target.
 Optimized Convolutional Neural Network (Optimized CNN):
-
-
-The project demonstrated the effectiveness of CNNs in image classification tasks, especially when combined with systematic optimization techniques. The final results indicated that with further fine-tuning, the model could meet or exceed the target accuracy, making it a viable option for the ASL translation application.
-
-
+The optimized CNN showed tremendous promise, edging ever closer to the desired accuracy goal. Through careful tuning and architectural adjustments, this model emerged as a top contender for the ASL translation task.
+Conclusion
+This project not only showcased the power of CNNs in image classification but also highlighted the importance of systematic optimization. With a few more refinements, the model is on track to exceed the accuracy targets, making it a strong candidate for a real-world ASL translation application. The journey from baseline DNN to an optimized CNN reflects a clear path of innovation and relentless pursuit of excellence.
 
 
 
